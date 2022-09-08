@@ -13,6 +13,10 @@ const BookGrid = () => {
     const getBooks = async () => {
         const results = await fetchBooks(search);
         console.log("loggin book grid results", results);
+
+        if (results === []) {
+            return <p> No results found. </p>;
+        }
         setBook(results);
     };
 

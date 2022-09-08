@@ -15,7 +15,7 @@ export const fetchBooks = async (query) => {
         }
 
         const searchResults = results.map((item) => {
-            // console.log("logging item", item);
+            console.log("logging item", item);
 
             const book = {
                 id: item.id,
