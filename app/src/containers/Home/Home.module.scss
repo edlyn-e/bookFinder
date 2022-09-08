@@ -1,0 +1,11 @@
+.Home {
+    min-height: 75.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__Header {
+        font-size: xx- large;
+    }
+}

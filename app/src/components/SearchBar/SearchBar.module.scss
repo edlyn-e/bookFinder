@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .SearchBar {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        width: 80vw;
+
+        &__Input {
+            width: 70%;
+        }
+    }
+}
